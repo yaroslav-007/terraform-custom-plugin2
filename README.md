@@ -21,7 +21,6 @@ Compile custom terraform plugin that shows your external IP
     cd terraform-custom-plugin2.git
     vagrant up
     vagrant ssh
-    vagrant ssh 
     go get github.com/petems/terraform-provider-extip
     cd ~/go/src/github.com/petems/terraform-provider-extip
     make build
